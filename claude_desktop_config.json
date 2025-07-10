@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    },
+    "weather": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "tsx",
+        "/Users/patrick/Repo/temp/WaD25/mcp/wad-mcp-template/src/server.ts"
+      ]
+    }
+  }
+}
